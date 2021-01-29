@@ -1,0 +1,22 @@
+.lists {
+  background: #f8f9f90a;
+  border-radius: 3px;
+  padding: 30px;
+  box-shadow: 0 0 23px rgba(0, 0, 0, 0.2);
+  max-height: 500px;
+  overflow-y: auto;
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.lists-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 21px;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
